@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AF8CA51A397DC100A1268E /* GLSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF8CA41A397DC100A1268E /* GLSLViewController.m */; };
+		27AF8CA71A39813000A1268E /* sha256.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 27AF8CA61A39813000A1268E /* sha256.vsh */; };
 		9818165E1868F5ED00B55C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9818165D1868F5ED00B55C6E /* Foundation.framework */; };
 		981816601868F5ED00B55C6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9818165F1868F5ED00B55C6E /* CoreGraphics.framework */; };
 		981816621868F5ED00B55C6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981816611868F5ED00B55C6E /* UIKit.framework */; };
@@ -27,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27AF8CA31A397DC100A1268E /* GLSLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSLViewController.h; sourceTree = "<group>"; };
+		27AF8CA41A397DC100A1268E /* GLSLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSLViewController.m; sourceTree = "<group>"; };
+		27AF8CA61A39813000A1268E /* sha256.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sha256.vsh; sourceTree = "<group>"; };
 		9818165A1868F5ED00B55C6E /* ExploringGPGPU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploringGPGPU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9818165D1868F5ED00B55C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9818165F1868F5ED00B55C6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +128,9 @@
 				98C5779D186C783400F60E0F /* IterativeTester.m */,
 				98C5778B186B5A6E00F60E0F /* Iterative.vsh */,
 				981816681868F5ED00B55C6E /* Supporting Files */,
+				27AF8CA31A397DC100A1268E /* GLSLViewController.h */,
+				27AF8CA41A397DC100A1268E /* GLSLViewController.m */,
+				27AF8CA61A39813000A1268E /* sha256.vsh */,
 			);
 			path = ExploringGPGPU;
 			sourceTree = "<group>";
@@ -191,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C5778C186B5A6E00F60E0F /* Iterative.vsh in Resources */,
+				27AF8CA71A39813000A1268E /* sha256.vsh in Resources */,
 				98C57794186C750E00F60E0F /* Exponent.vsh in Resources */,
 				98C57795186C750E00F60E0F /* Linear.vsh in Resources */,
 				9818166C1868F5ED00B55C6E /* InfoPlist.strings in Resources */,
@@ -205,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9818167F1868F5ED00B55C6E /* ViewController.m in Sources */,
+				27AF8CA51A397DC100A1268E /* GLSLViewController.m in Sources */,
 				98C5779B186C77B700F60E0F /* ExponentTester.m in Sources */,
 				98C57798186C75AB00F60E0F /* LinearTester.m in Sources */,
 				981816721868F5ED00B55C6E /* AppDelegate.m in Sources */,

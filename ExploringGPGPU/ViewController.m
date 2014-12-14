@@ -3,7 +3,8 @@
 //  Copyright (c) 2013 Bartosz Ciechanowski. All rights reserved.
 //
 
-#import <OpenGLES/ES3/gl.h>
+#import <OpenGLES/ES2/glext.h>
+#import <OpenGLES/ES3/glext.h>
 
 #import "ViewController.h"
 

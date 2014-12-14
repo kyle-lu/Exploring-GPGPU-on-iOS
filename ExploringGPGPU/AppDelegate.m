@@ -4,7 +4,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "GLSLViewController.h"
 
 @implementation AppDelegate
 
@@ -12,7 +12,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    self.viewController = [[ViewController alloc] init];
+    self.viewController = [[GLSLViewController alloc] init];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
